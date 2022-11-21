@@ -509,7 +509,7 @@
 .aboutUs-info .element .info-list li:before {
   content: "";
   position: absolute;
-  top: -5;
+  top: 0;
   left: -35px;
   width: 22px;
   height: 22px;
