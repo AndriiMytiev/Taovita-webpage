@@ -1,0 +1,173 @@
+.brands {
+  padding: 97px 0;
+  position: relative;
+
+  .cloud-l {
+    position: absolute;
+    left: 0;
+    top: 140px;
+  }
+
+  .cloud-r {
+    position: absolute;
+    right: 0;
+    bottom: -140px;
+    z-index: 1;
+  }
+
+  .extra {
+    position: absolute;
+    top: 20px;
+    right: 0;
+  }
+
+  .mb-left {
+    position: absolute;
+    bottom: 180px;
+    left: 0;
+  }
+
+  .ms-left {
+    position: absolute;
+    bottom: 120px;
+    left: 0;
+  }
+
+  .section-title {
+    margin-bottom: 64px;
+  }
+
+  &-slider-wrapper {
+    max-width: 1550px;
+    margin: auto;
+  }
+
+  .slide {
+    position: relative;
+    height: 630px;
+
+    &-item {
+      margin-right: 160px;
+    }
+
+    &-content {
+      max-width: 560px;
+
+      &-title {
+        font-family: "Cormorant-Regular";
+        font-size: 56px;
+        font-weight: 400;
+        line-height: 67px;
+        letter-spacing: 0em;
+        text-align: left;
+        text-transform: uppercase;
+        margin-bottom: 16px;
+      }
+
+      &-text {
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 27px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #666666;
+        margin-bottom: 32px;
+      }
+
+      &-subtext {
+        padding: 24px 32px;
+        margin-bottom: 43px;
+        background: linear-gradient(
+          90deg,
+          rgba(0, 151, 160, 0.15) 0%,
+          rgba(0, 151, 160, 0) 100%
+        );
+        box-shadow: -3px 0px 0px #0097a0;
+        border-radius: 10px;
+
+        span {
+          font-weight: bold;
+        }
+
+        p,
+        li {
+          margin: 0;
+          font-size: 16px;
+          font-weight: 400;
+          line-height: 24px;
+          letter-spacing: 0em;
+          text-align: left;
+        }
+
+        ul {
+          margin-top: 16px;
+          padding-left: 18px;
+          list-style: none;
+        }
+
+        ul li {
+          position: relative;
+          margin-bottom: 12px;
+        }
+
+        ul li::before {
+          content: "";
+          position: absolute;
+          top: 7px;
+          left: -18px;
+          width: 8px;
+          height: 8px;
+          border-radius: 50%;
+          background: #0097a0;
+        }
+      }
+
+      .play-button {
+        img {
+          margin: 0 12px 0 30px;
+          cursor: pointer;
+        }
+
+        p {
+          font-size: 16px;
+          font-weight: 600;
+          line-height: 21px;
+          letter-spacing: 0em;
+          text-align: left;
+        }
+      }
+    }
+  }
+
+  .slick-dots {
+    position: absolute;
+    top: 50%;
+    right: 2%;
+    transform: translate(-50%, -50%);
+    width: fit-content;
+    height: fit-content;
+  }
+
+  .slick-dots li {
+    display: block;
+    margin-bottom: 20px;
+  }
+
+  .slick-dots li button:before {
+    width: 24px;
+    height: 24px;
+    font-size: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #018c95;
+    opacity: 0.6;
+  }
+
+  .slick-dots li.slick-active button:before {
+    color: #018c95;
+    opacity: 1;
+    border-radius: 50%;
+    border: 1px solid #018c95;
+  }
+}

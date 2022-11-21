@@ -1,0 +1,119 @@
+.news {
+  padding: 100px 0 20px 0;
+  background: linear-gradient(180deg, #f7f7f7 0%, rgba(247, 247, 247, 0) 100%);
+  position: relative;
+
+  .extra {
+    position: absolute;
+    right: 0;
+    top: 200px;
+  }
+
+  &-slider-wrapper {
+    max-width: 1550px;
+    padding: 0 25px;
+    margin: auto;
+  }
+
+  .slide {
+    width: 352px;
+    margin: 25px 32px 25px 0;
+    box-shadow: 0px 0px 10px rgba(17, 17, 17, 0.08);
+    border-radius: 10px;
+    background-color: #ffffff;
+
+    &-img {
+      position: relative;
+    }
+
+    .tag {
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: rgba(0, 151, 160, 0.6);
+      border-top-right-radius: 14px;
+      padding: 8px 16px;
+      margin: 0;
+      font-family: "MontserratAlternates-Regular";
+      color: #ffffff;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 120%;
+      text-transform: uppercase;
+    }
+
+    &-text {
+      p {
+        margin: 0;
+      }
+
+      .mainInfo {
+        padding: 24px 24px 16px 24px;
+        font-family: "MontserratAlternates-Regular";
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 25px;
+      }
+
+      .readMore {
+        padding: 0px 0px 24px 32px;
+        font-family: "MontserratAlternates-Regular";
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 130%;
+        color: #0097a0;
+      }
+    }
+
+    &-bottom {
+      border-top: 1px solid #e8e9ec;
+      padding: 14px 32px 17px 32px;
+      display: flex;
+      align-items: center;
+
+      span {
+        font-family: "MontserratAlternates-Regular";
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 130%;
+      }
+
+      .number {
+        margin: 0px 17px 0px 8px;
+        color: #0097a0;
+      }
+
+      .date {
+        margin-left: auto;
+        color: #666666;
+      }
+    }
+  }
+
+  .slick-arrow {
+    width: 48px !important;
+    height: 48px !important;
+    font-size: 0 !important;
+  }
+
+  .slick-arrow.slick-prev {
+    position: absolute;
+    left: -60px;
+    background: url("/img/partners-slider/prev-arrow.svg") 0 0 / 100% no-repeat;
+  }
+
+  .slick-arrow.slick-next {
+    position: absolute;
+    right: -60px;
+    background: url("/img/partners-slider/next-arrow.svg") 0 0 / 100% no-repeat;
+  }
+
+  .slick-arrow.slick-prev:before,
+  .slick-arrow.slick-next:before {
+    content: "";
+  }
+}

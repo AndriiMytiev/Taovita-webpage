@@ -1,0 +1,68 @@
+.header {
+  padding: 5px 0;
+  position: sticky;
+  z-index: 10;
+  top: 0;
+  box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+  ul {
+    margin: 0 150px;
+    li {
+      display: inline;
+      margin-right: 40px;
+
+      font: {
+        family: "MontserratAlternates-Semibold";
+        size: 14px !important;
+        weight: 600;
+      }
+      text-transform: uppercase;
+      line-height: 18px !important;
+      letter-spacing: 0.1em;
+    }
+  }
+
+  .language {
+    margin-right: 70px;
+    .btn.focus,
+    .btn:focus {
+      box-shadow: none;
+    }
+    .btn {
+      font: {
+        family: "MontserratAlternates-Semibold";
+        size: 14px !important;
+        weight: 600;
+      }
+    }
+  }
+
+  a {
+    color: rgba(17, 17, 17, 0.7) !important;
+    cursor: pointer;
+  }
+  a:hover {
+    color: rgba(17, 17, 17, 1) !important;
+    transition: all 0.3s;
+    text-decoration: none;
+  }
+
+  .cart {
+    cursor: pointer;
+    position: relative;
+    margin-right: 70px;
+    .counter {
+      width: 24px;
+      height: 24px;
+      border-radius: 50%;
+      background: linear-gradient(95.12deg, #65b7bc 7.3%, #0097a0 100%);
+      font-family: "MontserratAlternates-Semibold";
+      font-size: 14px;
+      font-weight: 600;
+      color: white;
+      position: absolute;
+      top: -10px;
+      right: -15px;
+    }
+  }
+}

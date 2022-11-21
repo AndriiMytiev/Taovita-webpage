@@ -1,0 +1,28 @@
+@font-face {
+    font-family: "Cormorant-Regular";
+    src: url("Cormorant.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+  
+@font-face {
+    font-family: "Cormorant-Light";
+    src: url("Cormorantlight.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+  
+@font-face {
+    font-family: "Cormorant-SemiBold";
+    src: url("Cormorantsemibold.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+  
+@font-face {
+    font-family: "Cormorant-Bold";
+    src: url("Cormorantbold.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+  
