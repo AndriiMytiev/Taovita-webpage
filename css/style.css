@@ -608,12 +608,12 @@
 .news .slick-arrow.slick-prev {
   position: absolute;
   left: -60px;
-  background: url("/img/partners-slider/prev-arrow.svg") 0 0/100% no-repeat;
+  background: url("../img/partners-slider/prev-arrow.svg") 0 0/100% no-repeat;
 }
 .news .slick-arrow.slick-next {
   position: absolute;
   right: -60px;
-  background: url("/img/partners-slider/next-arrow.svg") 0 0/100% no-repeat;
+  background: url("../img/partners-slider/next-arrow.svg") 0 0/100% no-repeat;
 }
 .news .slick-arrow.slick-prev:before,
 .news .slick-arrow.slick-next:before {
@@ -652,12 +652,12 @@
 .partners .slick-arrow.slick-prev {
   position: absolute;
   left: -60px;
-  background: url("/img/partners-slider/prev-arrow.svg") 0 0/100% no-repeat;
+  background: url("../img/partners-slider/prev-arrow.svg") 0 0/100% no-repeat;
 }
 .partners .slick-arrow.slick-next {
   position: absolute;
   right: -60px;
-  background: url("/img/partners-slider/next-arrow.svg") 0 0/100% no-repeat;
+  background: url("../img/partners-slider/next-arrow.svg") 0 0/100% no-repeat;
 }
 .partners .slick-arrow.slick-prev:before,
 .partners .slick-arrow.slick-next:before {
