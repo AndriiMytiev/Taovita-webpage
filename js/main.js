@@ -90,13 +90,13 @@ window.onload = function () {
   setMouseParallaxStyle();
 
   main.addEventListener("mousemove", function (e) {
-    const parallaxWidth = main.offsetWidth;
-    const parallaxHeight = main.offsetHeight;
+    const mainWidth = main.offsetWidth;
+    const mainHeight = main.offsetHeight;
 
-    const coordX = e.pageX - parallaxWidth;
-    const coordY = (e.pageY - parallaxHeight) * 2;
+    const coordX = e.pageX - mainWidth;
+    const coordY = (e.pageY - mainHeight) * 2;
 
-    coordXprocent = (coordX / parallaxWidth) * 100;
-    coordYprocent = (coordY / parallaxHeight) * 100;
+    coordXprocent = (coordX / mainWidth) * 100;
+    coordYprocent = (coordY / mainHeight) * 100;
   });
 };
